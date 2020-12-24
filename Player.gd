@@ -8,6 +8,7 @@ onready var m_stateString : String = "Idle"
 onready var m_speed : float = 100
 onready var m_movement := Vector2(0,0)
 
+var test ="Test"
 signal stateChanged(state)
 
 func _process(delta) -> void:
